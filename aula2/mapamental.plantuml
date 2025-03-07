@@ -1,0 +1,75 @@
+@startmindmap
+
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+     FontColor blue
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .important {
+    BackgroundColor #DD0000
+    FontColor #FFFFFF
+  }
+}
+</style>
+
+* Aula 2
+
+** Aula Passada <<rose>>
+*** F.A.Q.
+**** Elaboramos Perguntas Frequentes
+*** Criamos um portólio da sala
+**** https://github.com/orlandosaraivajr/FATEC_1SEM25_LP1
+*** Criar nosso ambiente de desenvolvimento
+**** Primeiro Programa
+**** Primeira Lista de Exercícicos
+
+** Variável
+*** Uma estrutura que armazena um dado
+*** Um valor que fica guardado na memória do computador
+*** Uma "caixinha"
+**** Guarda Valores
+*** Possui
+**** Nome
+***** Não Podemos
+****** Começar com números
+******* 1nome = 10
+****** Ter espaços em branco
+******* nome completo = 'Teste da Silva'
+****** Palavras reservadas
+******* class = 'teste'
+**** Valor
+**** Tipo
+***** Classificação 
+****** Numérico
+******* Inteiros (int)
+******* Ponto Flutuante (float)
+****** String
+******* Dados textuais
+
+***** Como o computador lê a variável
+***** Qual o formato dessa "caixinha" ?
+
+*** Ordem das operações
+**** O acrônimo PEMDAS
+***** Os Parênteses 
+***** A Exponenciação
+***** A Multiplicação e a Divisão 
+***** A Adição e a Subtração 
+***** Os operadores com a mesma precedência são avaliados da esquerda para a direita (exceto na exponenciação).
+***** Ordem de Precedência
+****** 1. () 
+****** 2. '**' 
+****** 3.  * , /, //, % 
+****** 4. +, -
+ 
+
+** Comentários
+*** Com '\#'
+**** Para apenas uma linha
+*** Com três aspas simples
+**** Comentário em blocos
+@endmindmap
