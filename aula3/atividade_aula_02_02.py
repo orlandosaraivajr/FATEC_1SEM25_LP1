@@ -5,6 +5,9 @@ nota = nota.replace(',','.')
 # Converter string em float
 nota = float(nota)
 
+# Uma alternativa em uma única linha
+nota = float(input(' Digite a nota do aluno entre 0 a 100: ').replace(',','.'))
+
 if nota >= 90:
   print(' Aprovado com excelência ')
 elif nota >=70:
