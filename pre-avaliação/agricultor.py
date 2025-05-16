@@ -23,7 +23,15 @@ with open("dados_climativos_1.bin", "wb") as arquivo:
 
 '''
 def agro_decisor_tupla(tupla):
-    pass
+    # tupla = (35.0, 40.0, 0)
+    T, U, P = tupla
+    if P == 1:
+        return 'NÃO REGAR'
+    if T > 30 and U < 50:
+        return 'REGAR'
+    else:
+        return 'NÃO REGAR'
+    
 
 def agro_decisor(tamanho_lista, lista):
     print(tamanho_lista)
