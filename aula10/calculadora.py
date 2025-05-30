@@ -1,5 +1,6 @@
 def somar(a, b):
-    return a + b
+    # return a + b
+    return round(a + b, 2)
 
 def subtrair(a, b):
     return a - b
